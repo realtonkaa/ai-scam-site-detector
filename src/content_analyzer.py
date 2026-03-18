@@ -20,6 +20,8 @@ AI_FILLER_PHRASES = [
     "dive deep", "deep dive", "unlock the power", "take it to the next level",
     "don't miss out", "sign up today", "limited time offer",
     "transform your", "boost your", "maximize your", "unleash your",
+    "in the ever-evolving", "fast-paced world", "digital age",
+    "look no further than", "need not look further", "rest assured",
 ]
 
 SUPERLATIVES = [
