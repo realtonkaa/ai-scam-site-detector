@@ -107,7 +107,7 @@ streamlit run app/app.py
 
 ---
 
-## Sample Output
+## Sample Analysis Output
 
 ```
 AI Scam Site Detector
