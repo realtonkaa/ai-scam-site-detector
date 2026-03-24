@@ -157,6 +157,18 @@ This tool is a heuristic analyzer, not a definitive classifier. You should know:
 
 ---
 
+## Contributing
+
+Pull requests are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+
+When adding a new detection signal:
+1. Add the logic to the appropriate `src/` module
+2. Return a signal dict with `name`, `triggered`, `confidence`, and `detail`
+3. Write tests in the corresponding `tests/test_*.py` file
+4. Run `make test` to verify nothing is broken
+
+---
+
 ## Project Structure
 
 ```
