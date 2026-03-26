@@ -194,7 +194,9 @@ ai-scam-site-detector/
 
 ## Built With Claude
 
-I built this project with help from Claude (Anthropic). I used it to work through the scoring logic, think through edge cases in the heuristics, and debug some of the BeautifulSoup parsing code. The project structure and implementation decisions are mine; Claude helped me move faster and think more carefully about the design.
+I built this project with help from [Claude](https://claude.ai) by Anthropic. I used it to work through the scoring logic, reason about edge cases in the text heuristics, and debug the BeautifulSoup parsing code. The design decisions and motivation are mine; Claude helped me think through the implementation more carefully and move faster.
+
+If you find this tool useful and want to build on it, I'd recommend using Claude to help you think through new detection signals — it's particularly good at reasoning about why a heuristic might produce false positives and how to tune thresholds.
 
 ---
 
